@@ -1,0 +1,49 @@
+.display {
+	-fx-background-color: rgb(255.0,255.0,255.0,0.0) ;
+}
+
+.background {
+	-fx-background-color: light-gray;
+}
+
+.button {
+
+    -fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+
+}
+
+.labelScore {
+	-fx-font-size : 22.0;
+	-fx-font-weight : bold;
+}
+
+
+
+.VBox {
+    -fx-alignment: CENTER;
+}
+
+.joueurAI {
+	-fx-image: url("../images/joueur.png");
+}
+
+.obstacle {
+	-fx-image : url("../images/obstacle.png");
+}
+
+.voidImage {
+	-fx-image : url("../images/void.png");
+}
+
+.joueurHumain {
+	-fx-image: url("../images/joueurHumain.png");
+}
